@@ -1,0 +1,39 @@
+{
+  "name": "session-keys",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@coinbase/onchainkit": "^0.31.1",
+    "@coinbase/wallet-sdk": "^4.0.4",
+    "@tanstack/react-query": "5.45.1",
+    "next": "14.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "viem": "2.17.4",
+    "wagmi": "2.11.1",
+    "webauthn-p256": "npm:@lukasrosario/webauthn-p256@0.0.10-sessionkeys.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.10",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@wagmi/cli": "latest",
+    "bufferutil": "^4.0.8",
+    "encoding": "^0.1.13",
+    "lokijs": "^1.5.12",
+    "pino-pretty": "^10.3.1",
+    "supports-color": "^9.4.0",
+    "typescript": "^5.4.5",
+    "utf-8-validate": "^5.0.2"
+  },
+  "resolutions": {
+    "viem": "npm:@lukasrosario/viem@2.17.4-sessionkeys.5",
+    "wagmi": "npm:@lukasrosario/wagmi@2.11.1-sessionkeys.5"
+  }
+}
